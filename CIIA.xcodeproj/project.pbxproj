@@ -7,68 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A12A73A31F0C86C200356946 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A12A73A21F0C86C200356946 /* main.m */; };
-		A12A73A61F0C86C200356946 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A12A73A51F0C86C200356946 /* AppDelegate.m */; };
-		A12A73A91F0C86C200356946 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12A73A81F0C86C200356946 /* ViewController.m */; };
-		A12A73AC1F0C86C200356946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12A73AA1F0C86C200356946 /* Main.storyboard */; };
-		A12A73AE1F0C86C200356946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12A73AD1F0C86C200356946 /* Assets.xcassets */; };
-		A12A73B11F0C86C200356946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12A73AF1F0C86C200356946 /* LaunchScreen.storyboard */; };
-		A12A73BC1F0C86C300356946 /* CIIATests.m in Sources */ = {isa = PBXBuildFile; fileRef = A12A73BB1F0C86C300356946 /* CIIATests.m */; };
-		A12A73C71F0C86C300356946 /* CIIAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A12A73C61F0C86C300356946 /* CIIAUITests.m */; };
+		A12A73E11F0C880300356946 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12A73E01F0C880300356946 /* AppDelegate.swift */; };
+		A12A73E31F0C880300356946 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12A73E21F0C880300356946 /* ViewController.swift */; };
+		A12A73E61F0C880300356946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12A73E41F0C880300356946 /* Main.storyboard */; };
+		A12A73E81F0C880300356946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12A73E71F0C880300356946 /* Assets.xcassets */; };
+		A12A73EB1F0C880300356946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12A73E91F0C880300356946 /* LaunchScreen.storyboard */; };
+		A12A73F61F0C880300356946 /* CIIATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12A73F51F0C880300356946 /* CIIATests.swift */; };
+		A12A74011F0C880300356946 /* CIIAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12A74001F0C880300356946 /* CIIAUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A12A73B81F0C86C300356946 /* PBXContainerItemProxy */ = {
+		A12A73F21F0C880300356946 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A12A73961F0C86C200356946 /* Project object */;
+			containerPortal = A12A73D51F0C880300356946 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A12A739D1F0C86C200356946;
+			remoteGlobalIDString = A12A73DC1F0C880300356946;
 			remoteInfo = CIIA;
 		};
-		A12A73C31F0C86C300356946 /* PBXContainerItemProxy */ = {
+		A12A73FD1F0C880300356946 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A12A73961F0C86C200356946 /* Project object */;
+			containerPortal = A12A73D51F0C880300356946 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A12A739D1F0C86C200356946;
+			remoteGlobalIDString = A12A73DC1F0C880300356946;
 			remoteInfo = CIIA;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A12A739E1F0C86C200356946 /* CIIA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CIIA.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A12A73A21F0C86C200356946 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A12A73A41F0C86C200356946 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A12A73A51F0C86C200356946 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A12A73A71F0C86C200356946 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A12A73A81F0C86C200356946 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A12A73AB1F0C86C200356946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A12A73AD1F0C86C200356946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A12A73B01F0C86C200356946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A12A73B21F0C86C200356946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A12A73B71F0C86C300356946 /* CIIATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIIATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A12A73BB1F0C86C300356946 /* CIIATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIIATests.m; sourceTree = "<group>"; };
-		A12A73BD1F0C86C300356946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A12A73C21F0C86C300356946 /* CIIAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIIAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A12A73C61F0C86C300356946 /* CIIAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIIAUITests.m; sourceTree = "<group>"; };
-		A12A73C81F0C86C300356946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12A73DD1F0C880300356946 /* CIIA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CIIA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12A73E01F0C880300356946 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A12A73E21F0C880300356946 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A12A73E51F0C880300356946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A12A73E71F0C880300356946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A12A73EA1F0C880300356946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A12A73EC1F0C880300356946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12A73F11F0C880300356946 /* CIIATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIIATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12A73F51F0C880300356946 /* CIIATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIIATests.swift; sourceTree = "<group>"; };
+		A12A73F71F0C880300356946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12A73FC1F0C880300356946 /* CIIAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIIAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12A74001F0C880300356946 /* CIIAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIIAUITests.swift; sourceTree = "<group>"; };
+		A12A74021F0C880300356946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A12A739B1F0C86C200356946 /* Frameworks */ = {
+		A12A73DA1F0C880300356946 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A12A73B41F0C86C300356946 /* Frameworks */ = {
+		A12A73EE1F0C880300356946 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A12A73BF1F0C86C300356946 /* Frameworks */ = {
+		A12A73F91F0C880300356946 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,64 +74,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A12A73951F0C86C200356946 = {
+		A12A73D41F0C880300356946 = {
 			isa = PBXGroup;
 			children = (
-				A12A73A01F0C86C200356946 /* CIIA */,
-				A12A73BA1F0C86C300356946 /* CIIATests */,
-				A12A73C51F0C86C300356946 /* CIIAUITests */,
-				A12A739F1F0C86C200356946 /* Products */,
+				A12A73DF1F0C880300356946 /* CIIA */,
+				A12A73F41F0C880300356946 /* CIIATests */,
+				A12A73FF1F0C880300356946 /* CIIAUITests */,
+				A12A73DE1F0C880300356946 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A12A739F1F0C86C200356946 /* Products */ = {
+		A12A73DE1F0C880300356946 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A12A739E1F0C86C200356946 /* CIIA.app */,
-				A12A73B71F0C86C300356946 /* CIIATests.xctest */,
-				A12A73C21F0C86C300356946 /* CIIAUITests.xctest */,
+				A12A73DD1F0C880300356946 /* CIIA.app */,
+				A12A73F11F0C880300356946 /* CIIATests.xctest */,
+				A12A73FC1F0C880300356946 /* CIIAUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A12A73A01F0C86C200356946 /* CIIA */ = {
+		A12A73DF1F0C880300356946 /* CIIA */ = {
 			isa = PBXGroup;
 			children = (
-				A12A73A41F0C86C200356946 /* AppDelegate.h */,
-				A12A73A51F0C86C200356946 /* AppDelegate.m */,
-				A12A73A71F0C86C200356946 /* ViewController.h */,
-				A12A73A81F0C86C200356946 /* ViewController.m */,
-				A12A73AA1F0C86C200356946 /* Main.storyboard */,
-				A12A73AD1F0C86C200356946 /* Assets.xcassets */,
-				A12A73AF1F0C86C200356946 /* LaunchScreen.storyboard */,
-				A12A73B21F0C86C200356946 /* Info.plist */,
-				A12A73A11F0C86C200356946 /* Supporting Files */,
+				A12A73E01F0C880300356946 /* AppDelegate.swift */,
+				A12A73E21F0C880300356946 /* ViewController.swift */,
+				A12A73E41F0C880300356946 /* Main.storyboard */,
+				A12A73E71F0C880300356946 /* Assets.xcassets */,
+				A12A73E91F0C880300356946 /* LaunchScreen.storyboard */,
+				A12A73EC1F0C880300356946 /* Info.plist */,
 			);
 			path = CIIA;
 			sourceTree = "<group>";
 		};
-		A12A73A11F0C86C200356946 /* Supporting Files */ = {
+		A12A73F41F0C880300356946 /* CIIATests */ = {
 			isa = PBXGroup;
 			children = (
-				A12A73A21F0C86C200356946 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A12A73BA1F0C86C300356946 /* CIIATests */ = {
-			isa = PBXGroup;
-			children = (
-				A12A73BB1F0C86C300356946 /* CIIATests.m */,
-				A12A73BD1F0C86C300356946 /* Info.plist */,
+				A12A73F51F0C880300356946 /* CIIATests.swift */,
+				A12A73F71F0C880300356946 /* Info.plist */,
 			);
 			path = CIIATests;
 			sourceTree = "<group>";
 		};
-		A12A73C51F0C86C300356946 /* CIIAUITests */ = {
+		A12A73FF1F0C880300356946 /* CIIAUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A12A73C61F0C86C300356946 /* CIIAUITests.m */,
-				A12A73C81F0C86C300356946 /* Info.plist */,
+				A12A74001F0C880300356946 /* CIIAUITests.swift */,
+				A12A74021F0C880300356946 /* Info.plist */,
 			);
 			path = CIIAUITests;
 			sourceTree = "<group>";
@@ -143,13 +128,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A12A739D1F0C86C200356946 /* CIIA */ = {
+		A12A73DC1F0C880300356946 /* CIIA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A12A73CB1F0C86C300356946 /* Build configuration list for PBXNativeTarget "CIIA" */;
+			buildConfigurationList = A12A74051F0C880300356946 /* Build configuration list for PBXNativeTarget "CIIA" */;
 			buildPhases = (
-				A12A739A1F0C86C200356946 /* Sources */,
-				A12A739B1F0C86C200356946 /* Frameworks */,
-				A12A739C1F0C86C200356946 /* Resources */,
+				A12A73D91F0C880300356946 /* Sources */,
+				A12A73DA1F0C880300356946 /* Frameworks */,
+				A12A73DB1F0C880300356946 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -157,71 +142,72 @@
 			);
 			name = CIIA;
 			productName = CIIA;
-			productReference = A12A739E1F0C86C200356946 /* CIIA.app */;
+			productReference = A12A73DD1F0C880300356946 /* CIIA.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A12A73B61F0C86C300356946 /* CIIATests */ = {
+		A12A73F01F0C880300356946 /* CIIATests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A12A73CE1F0C86C300356946 /* Build configuration list for PBXNativeTarget "CIIATests" */;
+			buildConfigurationList = A12A74081F0C880300356946 /* Build configuration list for PBXNativeTarget "CIIATests" */;
 			buildPhases = (
-				A12A73B31F0C86C300356946 /* Sources */,
-				A12A73B41F0C86C300356946 /* Frameworks */,
-				A12A73B51F0C86C300356946 /* Resources */,
+				A12A73ED1F0C880300356946 /* Sources */,
+				A12A73EE1F0C880300356946 /* Frameworks */,
+				A12A73EF1F0C880300356946 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A12A73B91F0C86C300356946 /* PBXTargetDependency */,
+				A12A73F31F0C880300356946 /* PBXTargetDependency */,
 			);
 			name = CIIATests;
 			productName = CIIATests;
-			productReference = A12A73B71F0C86C300356946 /* CIIATests.xctest */;
+			productReference = A12A73F11F0C880300356946 /* CIIATests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A12A73C11F0C86C300356946 /* CIIAUITests */ = {
+		A12A73FB1F0C880300356946 /* CIIAUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A12A73D11F0C86C300356946 /* Build configuration list for PBXNativeTarget "CIIAUITests" */;
+			buildConfigurationList = A12A740B1F0C880300356946 /* Build configuration list for PBXNativeTarget "CIIAUITests" */;
 			buildPhases = (
-				A12A73BE1F0C86C300356946 /* Sources */,
-				A12A73BF1F0C86C300356946 /* Frameworks */,
-				A12A73C01F0C86C300356946 /* Resources */,
+				A12A73F81F0C880300356946 /* Sources */,
+				A12A73F91F0C880300356946 /* Frameworks */,
+				A12A73FA1F0C880300356946 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A12A73C41F0C86C300356946 /* PBXTargetDependency */,
+				A12A73FE1F0C880300356946 /* PBXTargetDependency */,
 			);
 			name = CIIAUITests;
 			productName = CIIAUITests;
-			productReference = A12A73C21F0C86C300356946 /* CIIAUITests.xctest */;
+			productReference = A12A73FC1F0C880300356946 /* CIIAUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A12A73961F0C86C200356946 /* Project object */ = {
+		A12A73D51F0C880300356946 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = dujia;
 				TargetAttributes = {
-					A12A739D1F0C86C200356946 = {
+					A12A73DC1F0C880300356946 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
-					A12A73B61F0C86C300356946 = {
+					A12A73F01F0C880300356946 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
-						TestTargetID = A12A739D1F0C86C200356946;
+						TestTargetID = A12A73DC1F0C880300356946;
 					};
-					A12A73C11F0C86C300356946 = {
+					A12A73FB1F0C880300356946 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
-						TestTargetID = A12A739D1F0C86C200356946;
+						TestTargetID = A12A73DC1F0C880300356946;
 					};
 				};
 			};
-			buildConfigurationList = A12A73991F0C86C200356946 /* Build configuration list for PBXProject "CIIA" */;
+			buildConfigurationList = A12A73D81F0C880300356946 /* Build configuration list for PBXProject "CIIA" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -229,37 +215,37 @@
 				en,
 				Base,
 			);
-			mainGroup = A12A73951F0C86C200356946;
-			productRefGroup = A12A739F1F0C86C200356946 /* Products */;
+			mainGroup = A12A73D41F0C880300356946;
+			productRefGroup = A12A73DE1F0C880300356946 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A12A739D1F0C86C200356946 /* CIIA */,
-				A12A73B61F0C86C300356946 /* CIIATests */,
-				A12A73C11F0C86C300356946 /* CIIAUITests */,
+				A12A73DC1F0C880300356946 /* CIIA */,
+				A12A73F01F0C880300356946 /* CIIATests */,
+				A12A73FB1F0C880300356946 /* CIIAUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A12A739C1F0C86C200356946 /* Resources */ = {
+		A12A73DB1F0C880300356946 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A12A73B11F0C86C200356946 /* LaunchScreen.storyboard in Resources */,
-				A12A73AE1F0C86C200356946 /* Assets.xcassets in Resources */,
-				A12A73AC1F0C86C200356946 /* Main.storyboard in Resources */,
+				A12A73EB1F0C880300356946 /* LaunchScreen.storyboard in Resources */,
+				A12A73E81F0C880300356946 /* Assets.xcassets in Resources */,
+				A12A73E61F0C880300356946 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A12A73B51F0C86C300356946 /* Resources */ = {
+		A12A73EF1F0C880300356946 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A12A73C01F0C86C300356946 /* Resources */ = {
+		A12A73FA1F0C880300356946 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,60 +255,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A12A739A1F0C86C200356946 /* Sources */ = {
+		A12A73D91F0C880300356946 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A12A73A91F0C86C200356946 /* ViewController.m in Sources */,
-				A12A73A61F0C86C200356946 /* AppDelegate.m in Sources */,
-				A12A73A31F0C86C200356946 /* main.m in Sources */,
+				A12A73E31F0C880300356946 /* ViewController.swift in Sources */,
+				A12A73E11F0C880300356946 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A12A73B31F0C86C300356946 /* Sources */ = {
+		A12A73ED1F0C880300356946 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A12A73BC1F0C86C300356946 /* CIIATests.m in Sources */,
+				A12A73F61F0C880300356946 /* CIIATests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A12A73BE1F0C86C300356946 /* Sources */ = {
+		A12A73F81F0C880300356946 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A12A73C71F0C86C300356946 /* CIIAUITests.m in Sources */,
+				A12A74011F0C880300356946 /* CIIAUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A12A73B91F0C86C300356946 /* PBXTargetDependency */ = {
+		A12A73F31F0C880300356946 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A12A739D1F0C86C200356946 /* CIIA */;
-			targetProxy = A12A73B81F0C86C300356946 /* PBXContainerItemProxy */;
+			target = A12A73DC1F0C880300356946 /* CIIA */;
+			targetProxy = A12A73F21F0C880300356946 /* PBXContainerItemProxy */;
 		};
-		A12A73C41F0C86C300356946 /* PBXTargetDependency */ = {
+		A12A73FE1F0C880300356946 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A12A739D1F0C86C200356946 /* CIIA */;
-			targetProxy = A12A73C31F0C86C300356946 /* PBXContainerItemProxy */;
+			target = A12A73DC1F0C880300356946 /* CIIA */;
+			targetProxy = A12A73FD1F0C880300356946 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A12A73AA1F0C86C200356946 /* Main.storyboard */ = {
+		A12A73E41F0C880300356946 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A12A73AB1F0C86C200356946 /* Base */,
+				A12A73E51F0C880300356946 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A12A73AF1F0C86C200356946 /* LaunchScreen.storyboard */ = {
+		A12A73E91F0C880300356946 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A12A73B01F0C86C200356946 /* Base */,
+				A12A73EA1F0C880300356946 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -330,7 +315,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A12A73C91F0C86C300356946 /* Debug */ = {
+		A12A74031F0C880300356946 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -375,11 +360,13 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A12A73CA1F0C86C300356946 /* Release */ = {
+		A12A74041F0C880300356946 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -417,12 +404,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		A12A73CC1F0C86C300356946 /* Debug */ = {
+		A12A74061F0C880300356946 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -430,10 +418,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dujia.CIIA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		A12A73CD1F0C86C300356946 /* Release */ = {
+		A12A74071F0C880300356946 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -441,51 +430,60 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dujia.CIIA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		A12A73CF1F0C86C300356946 /* Debug */ = {
+		A12A74091F0C880300356946 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CIIATests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dujia.CIIATests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIIA.app/CIIA";
 			};
 			name = Debug;
 		};
-		A12A73D01F0C86C300356946 /* Release */ = {
+		A12A740A1F0C880300356946 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CIIATests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dujia.CIIATests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIIA.app/CIIA";
 			};
 			name = Release;
 		};
-		A12A73D21F0C86C300356946 /* Debug */ = {
+		A12A740C1F0C880300356946 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CIIAUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dujia.CIIAUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = CIIA;
 			};
 			name = Debug;
 		};
-		A12A73D31F0C86C300356946 /* Release */ = {
+		A12A740D1F0C880300356946 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CIIAUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dujia.CIIAUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = CIIA;
 			};
 			name = Release;
@@ -493,40 +491,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A12A73991F0C86C200356946 /* Build configuration list for PBXProject "CIIA" */ = {
+		A12A73D81F0C880300356946 /* Build configuration list for PBXProject "CIIA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A12A73C91F0C86C300356946 /* Debug */,
-				A12A73CA1F0C86C300356946 /* Release */,
+				A12A74031F0C880300356946 /* Debug */,
+				A12A74041F0C880300356946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A12A73CB1F0C86C300356946 /* Build configuration list for PBXNativeTarget "CIIA" */ = {
+		A12A74051F0C880300356946 /* Build configuration list for PBXNativeTarget "CIIA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A12A73CC1F0C86C300356946 /* Debug */,
-				A12A73CD1F0C86C300356946 /* Release */,
+				A12A74061F0C880300356946 /* Debug */,
+				A12A74071F0C880300356946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		A12A73CE1F0C86C300356946 /* Build configuration list for PBXNativeTarget "CIIATests" */ = {
+		A12A74081F0C880300356946 /* Build configuration list for PBXNativeTarget "CIIATests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A12A73CF1F0C86C300356946 /* Debug */,
-				A12A73D01F0C86C300356946 /* Release */,
+				A12A74091F0C880300356946 /* Debug */,
+				A12A740A1F0C880300356946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		A12A73D11F0C86C300356946 /* Build configuration list for PBXNativeTarget "CIIAUITests" */ = {
+		A12A740B1F0C880300356946 /* Build configuration list for PBXNativeTarget "CIIAUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A12A73D21F0C86C300356946 /* Debug */,
-				A12A73D31F0C86C300356946 /* Release */,
+				A12A740C1F0C880300356946 /* Debug */,
+				A12A740D1F0C880300356946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A12A73961F0C86C200356946 /* Project object */;
+	rootObject = A12A73D51F0C880300356946 /* Project object */;
 }

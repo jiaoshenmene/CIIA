@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A12A739D1F0C86C200356946"
+               BlueprintIdentifier = "A12A73DC1F0C880300356946"
                BuildableName = "CIIA.app"
                BlueprintName = "CIIA"
                ReferencedContainer = "container:CIIA.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A12A73B61F0C86C300356946"
+               BlueprintIdentifier = "A12A73F01F0C880300356946"
                BuildableName = "CIIATests.xctest"
                BlueprintName = "CIIATests"
                ReferencedContainer = "container:CIIA.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A12A73C11F0C86C300356946"
+               BlueprintIdentifier = "A12A73FB1F0C880300356946"
                BuildableName = "CIIAUITests.xctest"
                BlueprintName = "CIIAUITests"
                ReferencedContainer = "container:CIIA.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A12A739D1F0C86C200356946"
+            BlueprintIdentifier = "A12A73DC1F0C880300356946"
             BuildableName = "CIIA.app"
             BlueprintName = "CIIA"
             ReferencedContainer = "container:CIIA.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A12A739D1F0C86C200356946"
+            BlueprintIdentifier = "A12A73DC1F0C880300356946"
             BuildableName = "CIIA.app"
             BlueprintName = "CIIA"
             ReferencedContainer = "container:CIIA.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A12A739D1F0C86C200356946"
+            BlueprintIdentifier = "A12A73DC1F0C880300356946"
             BuildableName = "CIIA.app"
             BlueprintName = "CIIA"
             ReferencedContainer = "container:CIIA.xcodeproj">
