@@ -14,6 +14,7 @@
 		A12A73EB1F0C880300356946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12A73E91F0C880300356946 /* LaunchScreen.storyboard */; };
 		A12A73F61F0C880300356946 /* CIIATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12A73F51F0C880300356946 /* CIIATests.swift */; };
 		A12A74011F0C880300356946 /* CIIAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12A74001F0C880300356946 /* CIIAUITests.swift */; };
+		A12A740F1F0C894D00356946 /* FixedIncomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12A740E1F0C894D00356946 /* FixedIncomeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A12A73FC1F0C880300356946 /* CIIAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIIAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12A74001F0C880300356946 /* CIIAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIIAUITests.swift; sourceTree = "<group>"; };
 		A12A74021F0C880300356946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12A740E1F0C894D00356946 /* FixedIncomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixedIncomeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				A12A73E01F0C880300356946 /* AppDelegate.swift */,
 				A12A73E21F0C880300356946 /* ViewController.swift */,
+				A12A740E1F0C894D00356946 /* FixedIncomeModel.swift */,
 				A12A73E41F0C880300356946 /* Main.storyboard */,
 				A12A73E71F0C880300356946 /* Assets.xcassets */,
 				A12A73E91F0C880300356946 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A12A740F1F0C894D00356946 /* FixedIncomeModel.swift in Sources */,
 				A12A73E31F0C880300356946 /* ViewController.swift in Sources */,
 				A12A73E11F0C880300356946 /* AppDelegate.swift in Sources */,
 			);
@@ -507,6 +511,7 @@
 				A12A74071F0C880300356946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A12A74081F0C880300356946 /* Build configuration list for PBXNativeTarget "CIIATests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				A12A740A1F0C880300356946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A12A740B1F0C880300356946 /* Build configuration list for PBXNativeTarget "CIIAUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				A12A740D1F0C880300356946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
