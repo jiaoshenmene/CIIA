@@ -17,6 +17,8 @@ class ViewController: UIViewController {
        let a = FixedIncomeModel.ex_dividend_price(final_payment: 100, yield_to_maturity: 0.0331, expiry_date: 7.2)
         print(a)
         
+        let b = FixedIncomeModel.combination_weight(combination: [1211652,1035050,1107395.8 ], single_item: 1211652)
+        print(b)
         
         
     }

@@ -28,6 +28,39 @@ class FixedIncomeModel: NSObject {
     }
     
     
+    /*
+     Accrued interest 应计利息
+     
+     interest rate  含息价格
+     */
     
+    func interest_rate(final_payment: Float , interest_rate : Float) -> Float {
+        return final_payment + interest_rate
+    }
+    
+    /*
+     Combination weight  组合权重
+     
+     */
+    
+    class func combination_weight(combination : [Double] , single_item : Double) -> [Double] {
+        var sum :Double = 0.0
+        for (_ , item) in combination.enumerated() {
+            sum = sum + item
+        }
+        var results : [Double] = []
+        
+        for (_ , item) in combination.enumerated() {
+            let result = item / sum * 100
+            results.append(result)
+        }
+        return results
+        
+    }
+    
+    
+    /*
+     
+     */
     
 }
